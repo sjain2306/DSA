@@ -5,7 +5,14 @@ import java.util.Scanner;
 public class SelectionSort {
     public static void main(String[] args)
     {
-        int[] arr =new int[5];
+//        Time Complexity:
+//        Best Case:𝑂(𝑛2)
+//        Average Case: 𝑂(𝑛2)
+//        Worst Case: 𝑂(𝑛2)
+//        Space Complexity: 𝑂(1) (in-place sorting).
+//        Stability: Not stable (equal elements may change order).
+//        Suitability: Works well for small datasets or when memory is limited.
+//        int[] arr =new int[5];
         int minindex;
         Scanner sc =new Scanner(System.in);
         for(int i=0;i< arr.length;i++)

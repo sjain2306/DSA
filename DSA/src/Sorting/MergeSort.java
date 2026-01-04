@@ -48,7 +48,7 @@ public class MergeSort {
 
 
     }
-    
+
     public static void main(String[] args)
     {
         int arr[]=new int[6];
@@ -63,6 +63,12 @@ public class MergeSort {
         for (int x:arr)
             System.out.println(x);
     }
-
+//    Time Complexity:
+//    Best: 𝑂(𝑛log𝑛)
+//    Average:𝑂(𝑛log𝑛)
+//    Worst: 𝑂(𝑛log𝑛)
+//    Space Complexity: 𝑂(𝑛) (requires auxiliary space for merging)
+//    Stability: Stable (preserves order of equal elements)
+//    Use Case: Ideal for large datasets and linked lists
 
 }

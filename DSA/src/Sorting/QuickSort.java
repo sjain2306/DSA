@@ -45,8 +45,11 @@ public class QuickSort {
         for (int x:arr)
             System.out.println(x);
     }
-
-
-
+//    Time Complexity:
+//    Best Case:𝑂(𝑛log𝑛)(balanced partitions).
+//    Average Case: 𝑂(𝑛log𝑛).
+//    Worst Case: 𝑂(𝑛2)(when pivot selection is poor, e.g., always smallest/largest element).
+//    Space Complexity: 𝑂(log𝑛)(recursive stack).
+//    Stability: Not stable (equal elements may change order).
 
 }
