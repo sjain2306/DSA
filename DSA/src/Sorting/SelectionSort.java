@@ -12,7 +12,7 @@ public class SelectionSort {
         {
             arr[i]=sc.nextInt();
         }
-        System.out.println("----------------------------------------");
+        System.out.println("--------------------Selection Sort--------------------");
         for(int a=0;a< arr.length-1;a++)
         {
             minindex=a;
